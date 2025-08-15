@@ -19,9 +19,10 @@ This is intentional because:
 4. **Learning from Mistakes** – Some code intentionally contains flaws to serve as evaluation material.
 
 > **Note:** This repository is not intended for direct production use.
->
-> This is my personal learning playground. Expect some chaos, bugs, and a lot of fun! 😆
+
 
 
 ## 📜 License
 MIT License – See [LICENSE](LICENSE) for details.
+
+## This is my personal learning playground. Expect some chaos, bugs, and a lot of fun! 😆
