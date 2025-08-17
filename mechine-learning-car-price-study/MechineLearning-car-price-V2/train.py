@@ -42,10 +42,11 @@ model = MultiOutputRegressor(XGBRegressor(
     reg_alpha=0.1,
     reg_lambda=1,
     random_state=42,
-    tree_method='hist',
+    tree_method='hist', #You can use tree_method="gpu_hist" if your laptop/PC has a supported NVIDIA GPU with CUDA. Otherwise, XGBoost will fall back to CPU with hist
     eval_metric='rmse'
 ))
 
 model.fit(X_train, y_train)
+
 
 joblib.dump(model, 'Result/MechineLearning-car-price-v2-XGBRegressor.pkl')
