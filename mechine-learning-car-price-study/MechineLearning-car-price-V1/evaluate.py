@@ -24,8 +24,9 @@ rmse = np.sqrt(mse)
 r2 = r2_score(y_test, prediksi)
 
 print(f'Prediksi: {prediksi[:5]}')  
-print(f'Asli: {y_test.values[:5]}')
+print(f'Real: {y_test.values[:5]}')
 print(f'MSE: {mse:.2f}')
 print(f'RMSE: {rmse:.2f}')
 print(f'R² Score: {r2:.2f}')
+
 
