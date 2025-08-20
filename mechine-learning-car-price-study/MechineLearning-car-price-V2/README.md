@@ -29,7 +29,7 @@ pip install -r requirements.txt
 The dataset used in this project contains millions of rows in the full version.
 For demonstration purposes, only a **dummy dataset** is included in this repository.
 
-The full dataset can be accessed via this link: [Google Drive](link_google_drive)
+The full dataset can be accessed via this link: [Google Drive](https://drive.google.com/file/d/1i2SxpN4k-DN5RJ9P8whFiS4y0iuOlPRg/view?usp=drive_link)
 
 **Columns include (raw dataset):**
 
@@ -118,5 +118,6 @@ All dependencies are listed in `requirements.txt` with fixed versions to ensure 
 * The full dataset with \~5 million rows can be accessed via Google Drive.
 * This project is still experimental and intended for **educational purposes only**.
 * Apologies if there are still shortcomings, as I am also still learning. 🙏
+
 
 ---
